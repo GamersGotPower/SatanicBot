@@ -1,0 +1,25 @@
+{
+  "name": "SatanicBot",
+  "version": "0.1.0",
+  "description": "A Discord bot.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "npm install discord.js node-opus ytdl-core && node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BitNetwork/Tilde.git"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bot"
+  ],
+  "author": "GamersGotPower",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BitNetwork/Tilde/issues"
+  },
+  "homepage": "https://github.com/BitNetwork/Tilde#readme"
+}
