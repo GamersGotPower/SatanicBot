@@ -29,7 +29,7 @@ client.on('message', message => {
 
 client.on('message', message => {
   if (message.content === '#help') {
-    message.channel.send('**SatanicBot Version 0.1.0**\n\n**Test**\n#ping - Sends A Pong Message\n**Fun**\n#hello - Sends Hello Comrade\n**Contact/Support**\n#official - Sends Links To Invite And Official Discord Server');
+    message.channel.send('```**SatanicBot Version 0.1.0**\n\n**Test**\n#ping - Sends A Pong Message\n**Fun**\n#hello - Sends Hello Comrade\n**Contact/Support**\n#official - Sends Links To Invite And Official Discord Server```');
   }
 
   if (message.content === '#log') {
